@@ -1,0 +1,12 @@
+<h1>Tacos</h1>
+<p>Let's eat delicious tacos!</p>
+
+<% tacos = ["Carnitas", "Steak", "Veggie", "Fish"] %>
+
+<p>There are <%= tacos.count %> tacos!</p>
+
+<ul>
+  <% for taco in tacos %>
+    <li><%= taco %></li>
+  <% end %>
+</ul>
